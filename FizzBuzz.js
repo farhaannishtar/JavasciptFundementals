@@ -11,11 +11,11 @@
 */
 
 function fizzBuzz(limit) {
-  for (let i = 0; i <= limit; i++) {
+  for (let i = 1; i <= limit; i++) {
     let word = '';
     if (i % 3 == 0) word += 'Fizz';
     if (i % 5 == 0) word += 'Buzz';
     console.log(word || i);
   }
 }
-fizzBuzz(20);
+fizzBuzz(10);
